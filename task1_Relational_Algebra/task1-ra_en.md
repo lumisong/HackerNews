@@ -20,12 +20,12 @@ Display the following information for all animals kept in the centre named 'Alic
 1. Select the record of the centre named ‘Alice Springs Desert Park’:
 
    $$
-   C1 = \sigma_{\text{centre\textunderscore name = 'Alice Springs Desert Park'}} (\text{CENTRE})
+   C1 = \sigma_{\text{centre\_name = 'Alice Springs Desert Park'}} (\text{CENTRE})
    $$
 2. Project the centre's ID:
 
    $$
-   C2 = \pi_{\text{centre\textunderscore id}} (C1)
+   C2 = \pi_{\text{centre\_id}} (C1)
    $$
 3. Join the result with the ANIMAL table using a theta join to select all animals kept in this centre:
 
@@ -35,7 +35,7 @@ Display the following information for all animals kept in the centre named 'Alic
 4. Project the required columns:
 
    $$
-   A2 = \pi_{\text{animal\textunderscore id, animal\textunderscore sex, spec\textunderscore genus, spec\textunderscore name}} (A1)
+   A2 = \pi_{\text{animal\_id, animal\_sex, spec\_genus, spec\_name}} (A1)
    $$
 5. Join the result with the SPECIES table using a theta join to get the species’ popular name:
 
@@ -45,7 +45,7 @@ Display the following information for all animals kept in the centre named 'Alic
 6. Project the final required columns:
 
    $$
-   R1 = \pi_{\text{animal\textunderscore id, animal\textunderscore sex, spec\textunderscore popular\textunderscore name}} (S1)
+   R1 = \pi_{\text{animal\_id, animal\_sex, spec\_popular\_name}} (S1)
    $$
 
 ### Explanation

@@ -1,0 +1,12 @@
+SELECT 
+    SPEC_GENUS AS genus_name,
+    TO_CHAR(
+        ROUND((SUM(CASE WHEN BREVENT_ID IS NULL THEN 1 ELSE 0 END) * 100.0) / COUNT(*), 2),
+        'FM999999990.00'
+    ) AS wild_percentage
+FROM 
+    ES.ANIMAL
+GROUP BY 
+    SPEC_GENUS
+ORDER BY 
+    SPEC_GENUS;

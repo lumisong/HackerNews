@@ -1,0 +1,59 @@
+{
+    "_id": "AUS10",
+    "centre_details": {
+        "centre_name": "Australia Zoo",
+        "centre_address": "1638 Steve Irwin Way, Beerwah  QLD  4519, Australia",
+        "center_type": "Zoo"
+    },
+    "total_number_animals": 6,
+    "animals": [
+        {
+            "animal_id": 2,
+            "popular_name": "Setonix brachyurus",
+            "sex": "F",
+            "date_added": "03-Jan-2018",
+            "wild_or_bred": "From Wild",
+            "no_of_exchanges": 1
+        },
+        {
+            "animal_id": 3,
+            "popular_name": "Setonix brachyurus",
+            "sex": "F",
+            "date_added": "09-Jun-2018",
+            "wild_or_bred": "Centre Bred",
+            "no_of_exchanges": 0
+        },
+        {
+            "animal_id": 5,
+            "popular_name": "Setonix brachyurus",
+            "sex": "M",
+            "date_added": "20-Jun-2018",
+            "wild_or_bred": "From Wild",
+            "no_of_exchanges": 0
+        },
+        {
+            "animal_id": 31,
+            "popular_name": "Antilope cervicapra",
+            "sex": "F",
+            "date_added": "25-Sep-2022",
+            "wild_or_bred": "From Wild",
+            "no_of_exchanges": 0
+        },
+        {
+            "animal_id": 1,
+            "popular_name": "Setonix brachyurus",
+            "sex": "M",
+            "date_added": "03-Jan-2018",
+            "wild_or_bred": "From Wild",
+            "no_of_exchanges": 0
+        },
+        {
+            "animal_id": 4,
+            "popular_name": "Diceros bicornis",
+            "sex": "F",
+            "date_added": "12-Jun-2018",
+            "wild_or_bred": "From Wild",
+            "no_of_exchanges": 2
+        }
+    ]
+}
